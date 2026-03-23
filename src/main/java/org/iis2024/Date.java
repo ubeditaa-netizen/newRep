@@ -30,7 +30,7 @@ public class Date {
   public int getDay() {
     return day;
   }
-
+  public int methodByOwner(){return day+month;}
   /**
    * Retrieves the month component of this date.
    *
